@@ -1,0 +1,54 @@
+css for ColorPicker */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 300px;
+    height: 500px;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    /* background-color: antiquewhite; */
+}
+
+.display{
+    height: 250px;
+    width: 200px;
+    /* border: 1px solid black; */
+    /* box-shadow: 5px 5px 5px black; */
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: 0.2s ease;
+}
+
+
+.display p{
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+label{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+input[type="color"]{
+    height: 40px;
+    width: 70px;
+    padding: 5px;
+    border-radius: 10px;
+    /* border: none; */
+}
